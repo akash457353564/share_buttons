@@ -1,10 +1,10 @@
 
-const wa_share_btn = document.querySelector('.wa_share')
+export const wa_share_btn = document.querySelector('.wa_share')
 const fb_share_btn = document.querySelector('.fb_share')
 const tw_share_btn = document.querySelector('.tw_share')
 
 
-const whatsapp_share = function(){
+export const whatsapp_share = function(){
     const current_url = window.location.href
     const wa_url = `https://wa.me/?text=${encodeURIComponent(current_url)}`
     
