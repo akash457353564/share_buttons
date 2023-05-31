@@ -21,7 +21,7 @@ const facebook_share = function(){
 
 const twitter_share = function(){
     const current_url = window.location.href
-    const tw_url = `https://twitter.com/share?url=${encodeURIComponent(current_url)}`
+    const tw_url = `https://twitter.com/intent/tweet?text=${encodeURIComponent(current_url)}`
     
     window.open(tw_url, '_blank')
 }
